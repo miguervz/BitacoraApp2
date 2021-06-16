@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FONDO"
+    tools:context=".modificacion_cuadernos">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="191dp"
+        android:layout_height="76dp"
+        android:fontFamily="cursive"
+        android:text="@string/altaCuaderno"
+        android:textAlignment="center"
+        android:textColor="@color/colorLetras"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <EditText
+        android:id="@+id/nombreCuaderno"
+        android:layout_width="190dp"
+        android:layout_height="72dp"
+        android:autofillHints="@string/nuevoCuaderno"
+        android:fontFamily="cursive"
+        android:hint="@string/nuevoCuaderno"
+        android:selectAllOnFocus="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+    <Button
+        android:id="@+id/btnAlta"
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/botones"
+        android:fontFamily="cursive"
+        android:text="@string/btnAlta"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <Button
+        android:id="@+id/btnCancelarModificar"
+        android:layout_width="147dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/botones"
+        android:fontFamily="cursive"
+        android:text="@string/btnCancelar"
+        android:textColor="@color/colorLetras"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
